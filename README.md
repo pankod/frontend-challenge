@@ -23,7 +23,7 @@ Use the returned data to display a page of results that matches the given design
 
 Please include a README with setup instructions, and any tests or other documentation you created as part of your solution.
 
-We also recommend you to use create-react-app in order not to make basic configuration yourself.
+We also recommend you to use [create-react-app](https://github.com/facebook/create-react-app)  in order not to make basic configuration yourself.
 
 
 
