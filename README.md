@@ -28,9 +28,7 @@ We also recommend you to use [create-react-app](https://github.com/facebook/crea
 
 
 ## Design
-We've provided a screen [designs](./designs/) for desktop and mobile version. You should follow design measurements in sketch file. 
-
-If you don't have licence for sketch visit their [official](https://www.sketch.com/) website to get a free trial version.
+We've provided a screen [designs](./screens) for desktop and mobile version. 
 
 We encourage you to use latest CSS techniques(like flex-box) and responsive design approach.
 
