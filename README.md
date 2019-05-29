@@ -1,6 +1,6 @@
 
 <div align="center">
-    <img width="500"src="Dark.jpg" align="center" />
+    <img width="500"src="logo.jpg" align="center" />
 </div>
 
 We are a young and innovative software development house located in the heart of beautiful İstanbul. We leverage agile methodologies, software life cycle best practices and cutting edge technology to deliver perfect solutions reflecting our passion for software development. 
