@@ -13,6 +13,8 @@ This is a basic test, in which you should be able to write a React app, using th
 
 Although this is a basic exercise, we’ll be looking for simple, well-designed and tested code in the submission.
 
+The purpose of this challenge is to evaluate your HTML, CSS, Javascript and React skills and overall approach while composing a simple web app given a set of screens and an JSON feed. We will also assess the HTML, CSS, and JS output.
+
 ## Task
 
 Using the provided screens as a reference, you’ll need to build a set of React components to render the app. You’ll also need to request a JSON feed, filter that data, and use the relevant fields. 
@@ -28,7 +30,15 @@ We also recommend you to use [create-react-app](https://github.com/facebook/crea
 
 
 ## Design
-We've provided a screen [designs](./screens) for desktop and mobile version. 
+
+<div>
+  <img src="./screens/1-home.jpg"  height="300" >
+  <img src="./screens/2-series.jpg" height="300" >
+ </div>
+
+ We've provided screen [designs](./screens) here. 
+
+The pages should also be usable on mobile and tablet devices.
 
 We encourage you to use latest CSS techniques(like flex-box) and responsive design approach.
 
@@ -54,7 +64,6 @@ For each page you will need to fetch JSON feed feed/sample.json, then:
 - Display the first 21 entries.
 - Where the entry has a releaseYear attribute value >= 2010.
 - Sorted by the title attribute value in ascending alphanumeric order.
-- There will be buttons which works correctly to sort by year and alphanumeric order.
 
 For the “Series” page filter on:
 
@@ -63,8 +72,6 @@ For the “Series” page filter on:
 For the “Movies” page filter on:
 - Where the entry has a programType attribute value of movie
 
-
-Search bar start searching when typing 3 characters and show related movies or series on the screen. The delay in milliseconds between when a keystroke occurs and when a search is performed.
 
 The attributes you should use to display the entries are:
 
