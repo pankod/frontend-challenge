@@ -1,6 +1,6 @@
 
 <div align="center">
-    <img width="500"src="logo.jpg" align="center" />
+    <img width="500" src="./screenshots/logo.jpg" align="center" />
 </div>
 
 We are a young and innovative software development house located in the heart of beautiful İstanbul. We leverage agile methodologies, software life cycle best practices and cutting edge technology to deliver perfect solutions reflecting our passion for software development. 
@@ -25,15 +25,26 @@ Please include a README with setup instructions, and any tests or other document
 
 We also recommend you to use [create-react-app](https://github.com/facebook/create-react-app)  in order not to make basic configuration yourself.
 
+You can use frameworks or packages as long as you can explain to us why you chose them.
 
+<br>
 
 ## Design
-We've provided a screen [designs](./designs/) for desktop and mobile version. You should follow design measurements in sketch file. 
+
+<div>
+  <img src="./screenshots//home.png"  height="300" >
+  <img src="./screenshots//movies.png" height="300" >
+ </div>
+
+We've provided a screen [designs](./design/) for desktop version. You should follow design measurements in sketch file. 
+
+There's no screens designed for the mobile version, but if you build a responsive app it's a big plus. 
 
 If you don't have licence for sketch visit their [official](https://www.sketch.com/) website to get a free trial version.
 
 We encourage you to use latest CSS techniques(like flex-box) and responsive design approach.
 
+<br>
 
 ## Details
 You will need to build the following 3 pages with React:
@@ -44,19 +55,24 @@ You will need to build the following 3 pages with React:
 
 
 #### Home Page
-Refer to the screens/1-home.jpg screen.
 
 This will be your index.html screen. You will need to display 2 tiles, which link to the “Series” page and the “Movies” page.
 
 #### Series and Movies Pages
-Refer to the screens/2-series.jpg and screens/3-movies.jpg screens.
 
-For each page you will need to fetch JSON feed feed/sample.json, then:
+For each page you will need to fetch JSON feed in feed/sample.json, then:
 
 - Display the first 21 entries.
 - Where the entry has a releaseYear attribute value >= 2010.
 - Sorted by the title attribute value in ascending alphanumeric order.
-- There will be buttons which works correctly to sort by year and alphanumeric order.
+
+
+ For Movies and Series pages there will be a dropdown list which has options of:
+
+- Sort by year in descending order.
+- Sort by year in ascending order.
+- Sort by alphanumeric in descending order.
+- Sort by alphanumeric in ascending order.
 
 For the “Series” page filter on:
 
@@ -75,17 +91,14 @@ The attributes you should use to display the entries are:
 
 You will also need to handle the loading and error states, of fetching the JSON feed:
 
-- “Loading” state screens/1.1-loading.jpg
-- “Error” state screens/1.2-error.jpg
-
-
-The deployable solution should be built in a folder named dist with an entry point file of index.html.
+- Check the design file for loading and error screens.
 
 Please create components for each part of the page (eg. header, content, footer, etc).
 Assets are provided in the assets folder.
 
 You can assume that you do not have to support legacy browsers without features such as fetch or flexbox.
-
+<br>
+<br>
 ## Nice to have 
 
 Here's few suggestion of things we'd like to see:
@@ -94,24 +107,30 @@ Here's few suggestion of things we'd like to see:
 
 - Implement solution in Next.js.
 
-- Responsive design for tablet device.
+- Responsive design for mobile device.
 
 - Showing your work through your Git commit history.
 
 - Production grade code (clean, maintainable, reusable code)
 
-- Implement unit tests with Jest and enzyme or react-rest-renderer.
+- Implement unit tests with Jest & Enzyme or react-rest-renderer.
 
+- Prefer to use a css methodology, such as BEM.
+<br>
+<br>
 
 ## Submission Guidelines
 
-* Please submit your code by sending a github repo link.
-
+* Please submit your code by sending a Github repository link.
+<br>
+<br>
 ## Project evaluation table
 
 We are evaluating project according to the features which specified table at the below.
 
 First of all, candidates project should have all requirements at base table.
+<br>
+
 
 | Base requirements | Point |          
 | --- | --- |
@@ -119,8 +138,12 @@ First of all, candidates project should have all requirements at base table.
 | React & State Management | 20 Points |
 | Production grade & Best practices | 15 Points |
 | Project folder structure | 5 Points |
+<br>
 
 You will get extra points if have implement bonus features.
+<br>
+
+
 
 | Bonus   | Point |          
 | --- | --- |
