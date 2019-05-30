@@ -36,7 +36,7 @@ You can use frameworks or packages as long as you can explain to us why you chos
   <img src="./screenshots//movies.png" height="300" >
  </div>
 
-We've provided a screen [designs](./design/) for desktop version. You should follow design measurements in sketch file. 
+We've provided a screen [designs](./design) for desktop version. You should follow design measurements in sketch file. 
 
 There's no screens designed for the mobile version, but if you build a responsive app it's a big plus. 
 
