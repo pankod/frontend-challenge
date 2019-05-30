@@ -101,7 +101,7 @@ You can assume that you do not have to support legacy browsers without features 
 <br>
 ## Nice to have 
 
-Here's few suggestion of things we'd like to see:
+These are not obligatory but big plus if you implement. Here's few suggestion of things we'd like to see:
 
 - Implement solution in TypeScript.
 
