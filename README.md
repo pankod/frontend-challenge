@@ -116,7 +116,7 @@ Here's few suggestion of things we'd like to see:
 
 We are evaluating project according to the features which specified table at the below.
 
-First of all, candidates project should have all requirements at base table.
+Candidates project should have all requirements define at base table.
 
 | Base requirements | Point |          
 | --- | --- |
@@ -125,7 +125,7 @@ First of all, candidates project should have all requirements at base table.
 | Production grade & Best practices | 15 Points |
 | Project folder structure | 5 Points |
 
-You will get extra points if have implement bonus features.
+You will get extra points if you implement bonus features.
 
 | Bonus   | Point |          
 | --- | --- |
