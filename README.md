@@ -35,6 +35,7 @@ You can use frameworks or packages as long as you can explain to us why you chos
   <img src="./screenshots//home.png"  height="300" >
   <img src="./screenshots//movies.png" height="300" >
  </div>
+<br>
 
 We've provided a screen [designs](./design) for desktop version. You should follow design measurements in sketch file. 
 
@@ -94,7 +95,6 @@ You will also need to handle the loading and error states, of fetching the JSON 
 - Check the design file for loading and error screens.
 
 Please create components for each part of the page (eg. header, content, footer, etc).
-Assets are provided in the assets folder.
 
 You can assume that you do not have to support legacy browsers without features such as fetch or flexbox.
 <br>
@@ -117,13 +117,13 @@ Here's few suggestion of things we'd like to see:
 
 - Prefer to use a css methodology, such as BEM.
 <br>
-<br>
 
 ## Submission Guidelines
 
 * Please submit your code by sending a Github repository link.
 <br>
-<br>
+
+
 ## Project evaluation table
 
 We are evaluating project according to the features which specified table at the below.
