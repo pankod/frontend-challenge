@@ -32,8 +32,8 @@ You can use frameworks or packages as long as you can explain to us why you chos
 ## Design
 
 <div>
-  <img src="./screenshots//home.png"  height="300" >
-  <img src="./screenshots//movies.png" height="300" >
+  <img src="./screenshots/home.png"  height="300" >
+  <img src="./screenshots/movies.png" height="300" >
  </div>
 <br>
 
@@ -151,10 +151,3 @@ You will get extra points if have implement bonus features.
 | Next.js | 5 Point |
 | Git commit history| 10 Point |
 | Unit Tests | 20 Point |
-
-
-
-
-
-
-
