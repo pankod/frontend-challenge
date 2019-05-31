@@ -67,13 +67,18 @@ For each page you will need to fetch JSON feed in feed/sample.json, then:
 - Where the entry has a releaseYear attribute value >= 2010.
 - Sorted by the title attribute value in ascending alphanumeric order.
 
+ For the Search function:
+ - It should filter the title attribute value of movies and series
+ - It should start to filter after typing 3 characters.
 
  For Movies and Series pages there will be a dropdown list which has options of:
 
 - Sort by year in descending order.
 - Sort by year in ascending order.
-- Sort by alphanumeric in descending order.
-- Sort by alphanumeric in ascending order.
+- Sort by title in descending order.
+- Sort by title in ascending order.
+
+
 
 For the “Series” page filter on:
 
@@ -82,8 +87,6 @@ For the “Series” page filter on:
 For the “Movies” page filter on:
 - Where the entry has a programType attribute value of movie
 
-
-Search bar start searching when typing 3 characters and show related movies or series on the screen. The delay in milliseconds between when a keystroke occurs and when a search is performed.
 
 The attributes you should use to display the entries are:
 
