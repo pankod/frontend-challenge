@@ -116,7 +116,7 @@ These are not obligatory but big plus if you implement. Here's few suggestion of
 
 - Production grade code (clean, maintainable, reusable code)
 
-- Implement unit tests with Jest & Enzyme or react-rest-renderer.
+- Implement unit tests with Jest & React Testing Library.
 
 - Prefer to use a css methodology, such as BEM.
 <br>
