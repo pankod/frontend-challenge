@@ -17,7 +17,7 @@ Although this is a basic exercise, we’ll be looking for simple, well-designed 
 
 Using the provided screens as a reference, you’ll need to build a set of React components to render the app. You’ll also need to request a JSON feed, filter that data, and use the relevant fields. 
 
-We have provided mock movie data as a JSON file. While requesting JSON feed, we also ask you to use Redux for storing incoming data. So this stored data will be used when you build the app and the components.
+We have provided mock movie data as a JSON file. While requesting JSON feed, we also ask you to use React Query for storing incoming data. So this stored data will be used when you build the app and the components.
 
 Use the returned data to display a page of results that matches the given design.
 
@@ -123,7 +123,7 @@ These are not obligatory but big plus if you implement. Here's few suggestion of
 
 ## Submission Guidelines
 
-* Please submit your code by sending a Github repository link.
+* Please submit your code by sending a GitHub repository link.
 <br>
 
 
@@ -135,12 +135,12 @@ First of all, candidates project should have all requirements at base table.
 <br>
 
 
-| Base requirements | Point |          
-| --- | --- |
-| HTML Markup | 10 Points |
-| React & State Management | 20 Points |
+| Base requirements                 | Point     |
+| --------------------------------- | --------- |
+| HTML Markup                       | 10 Points |
+| React & State Management          | 20 Points |
 | Production grade & Best practices | 15 Points |
-| Project folder structure | 5 Points |
+| Project folder structure          | 5 Points  |
 <br>
 
 You will get extra points if have implement bonus features.
@@ -148,9 +148,9 @@ You will get extra points if have implement bonus features.
 
 
 
-| Bonus   | Point |          
-| --- | --- |
-| Typescript | 15 Point |
-| Next.js | 5 Point |
-| Git commit history| 10 Point |
-| Unit Tests | 20 Point |
+| Bonus              | Point    |
+| ------------------ | -------- |
+| TypeScript         | 15 Point |
+| Next.js            | 5 Point  |
+| Git commit history | 10 Point |
+| Unit Tests         | 20 Point |
